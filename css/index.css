@@ -1,0 +1,28 @@
+body {
+  animation: fadeInPage 1s ease-in;
+  will-change: opacity;
+}
+
+@keyframes fadeInPage {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+h1 {
+  text-align: center;
+}
+
+button:hover {
+  background: #6366f1;
+  box-shadow: 0 0 10px rgba(99, 102, 241, 0.5);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+a:hover {
+  background: #6366f1;
+  box-shadow: rgba(99, 102, 241, 0.5);
+}
+
