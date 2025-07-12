@@ -74,3 +74,19 @@ button:hover {
   text-align: center;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.nav {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+
+  padding-bottom: 0.5rem;
+}
