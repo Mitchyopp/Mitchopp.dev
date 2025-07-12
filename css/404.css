@@ -1,0 +1,12 @@
+body {
+  font-size: 30px;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.go-home {
+  font-size: 20px;
+}

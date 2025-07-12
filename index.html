@@ -5,36 +5,51 @@
     <title>Homepage</title>
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/index.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
   </head>
   <body>
+    <header class="hero">
     <h1>
-      Welcome to my website
+      Mitchopp.dev 
     </h1>
-    <div>
+    <nav class="nav">
+      <a href="/">Home</a>
+      <a href="/projects.html">Projects</a>
+      <a href="/blog.html">Blog</a>
+    </nav>
+    </header>
+    <main>
+    <section>
+    <div class="about-div container">
       <h2>About me</h2>
       <br>
       <p>
         Hi there! My name is Mitch, I'm an 18 year old freelance fullstack web developer
         I'm passionate about Development, Linux and Japan.
       </p>
+    </section>
     </div>
-    <div>
+    <section>
+    <div class="experience-div container">
       <h3>My experience</h3>
       <p>I have been working on multiple projects through the past few months.</p>
-      <ul>
-        <li>3 Months experience as an intern for a startup company</li> <!--Make this an a tag linked to a page wher i describe what i learnt such as firebase-->
-        <li>
-          <p>General linux experience, i have been using arch linux and NixOS for the past 10 months and have learn tons about linux because of it.</p>
-        </li>
-        <li><a href="https://github.com/Mitchyopp/neovim" target="_blank">My neovim config</a></li>
-        <li><a>Outer (discord bot)</a></li>
-        <li><a href="https://github.com/Mitchyopp/NixOS" target="_blank">My NixOS config</a></li>
-        <li><a href="https://github.com/Mitchyopp/Bash" target="_blank">My bash scripts</a></li>
-        <li><a href="https://github.com/Mitchyopp/rust-book" target="_blank">Rust</a></li>
-      </ul>
+        <p>3 Months experience as an intern for a startup company</p> <!--Make this an a tag linked to a page wher i describe what i learnt such as firebase-->
+        <p>General linux experience, i have been using arch linux and NixOS for the past 10 months and have learn tons about linux because of it.</p>
+        <br>
+        <a href="https://github.com/Mitchyopp/neovim" target="_blank">My neovim config</a>
+        <br>
+        <p>Outer (discord bot)</p>
+        <br>
+        <a href="https://github.com/Mitchyopp/NixOS" target="_blank">My NixOS config</a>
+        <br>
+        <a href="https://github.com/Mitchyopp/Bash" target="_blank">My bash scripts</a>
+        <br>
+        <a href="https://github.com/Mitchyopp/rust-book" target="_blank">Rust</a>
     </div>
-    <div>
-      <hr>
+    </section>
+    </main>
+    <footer>
+    <div class="links">
       <p>&copy;Links</p>
       <ul>
         <li><a href="https://github.com/Mitchyopp">Github</a></li>
@@ -42,6 +57,7 @@
         <li><a href="https://github.com/Mitchyopp/Mitchopp.dev">This websites code</a></li>
       </ul>
     </div>
+    </footer>
     <a href="styles.html">styl</a>
     <button>click</button>
   </body>
